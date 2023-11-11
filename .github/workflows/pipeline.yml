@@ -1,5 +1,6 @@
 # Nome do Workflow
 name: DevOpsLab Pipeline
+#alterado Sabado
 
 # Evento que irá acionar a pipeline
 on: 
@@ -59,5 +60,3 @@ jobs:
             --allow-unauthenticated \
             --project ${{ vars.GOOGLE_PROJECT_ID }} \
             --format json
-
-
